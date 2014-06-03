@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "TipCalculator", "TipCalculator.dxjsproj", "{2BFB927E-91C2-4BC0-B90D-F575126B9BF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BFB927E-91C2-4BC0-B90D-F575126B9BF9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2BFB927E-91C2-4BC0-B90D-F575126B9BF9}.Debug|x86.Build.0 = Debug|Any CPU
+		{2BFB927E-91C2-4BC0-B90D-F575126B9BF9}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

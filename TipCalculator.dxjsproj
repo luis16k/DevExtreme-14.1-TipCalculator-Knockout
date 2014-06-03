@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>2bfb927e-91c2-4bc0-b90d-f575126b9bf9</ProjectGuid>
+    <AutoAssignPort>True</AutoAssignPort>
+    <RunInSimulator>True</RunInSimulator>
+    <ApplicationPage>index.html</ApplicationPage>
+    <Name>TipCalculator</Name>
+    <RootNamespace>TipCalculator</RootNamespace>
+    <ScreenOrientation>Portrait</ScreenOrientation>
+    <ApplicationTitle>TipCalculator</ApplicationTitle>
+    <BundleIdentifier>com.devexpress.dxtipcalculator</BundleIdentifier>
+    <ApkDexFilePackageName>app.id_b1b896ef8da1463bb7a0551fd636e8be</ApkDexFilePackageName>
+    <Accelerometer>False</Accelerometer>
+    <Camera>False</Camera>
+    <Capture>False</Capture>
+    <Compass>False</Compass>
+    <Connection>True</Connection>
+    <Contacts>False</Contacts>
+    <Device>False</Device>
+    <Events>False</Events>
+    <File>False</File>
+    <Geolocation>False</Geolocation>
+    <Media>False</Media>
+    <Notification>False</Notification>
+    <Storage>False</Storage>
+    <WhiteList />
+    <VersionCode>100</VersionCode>
+    <TemplateFileApk />
+    <UseCustomTemplateNameApk>False</UseCustomTemplateNameApk>
+    <KeyIpaPath />
+    <ProvisionProfile />
+    <IpaPrivateKeyFile />
+    <TemplateFileIpa />
+    <UseCustomTemplateNameIpa>False</UseCustomTemplateNameIpa>
+    <XapPackagePublisherID>{4833f448-4d76-4a71-a852-bcf792ddcafe}</XapPackagePublisherID>
+    <XapPackageProductID>{a4210e88-c244-4abe-a3f3-ddd0dc0619d4}</XapPackageProductID>
+    <TemplateFileXap />
+    <UseCustomTemplateNameXap>False</UseCustomTemplateNameXap>
+    <VersionPackage>1.0</VersionPackage>
+    <ShowSplashScreen>True</ShowSplashScreen>
+    <IpaDevicesFamily>iPhone</IpaDevicesFamily>
+    <WgtPackageId>OmOq0fA5GC</WgtPackageId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="cordova.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.android.holo-dark.css" />
+    <Content Include="css\dx.common.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.light.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.ios.default.css" />
+    <Content Include="css\dx.ios7.default.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.spa.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.tizen.black.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.win8.black.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app.config.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\dx.phonejs.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\jquery-1.11.1.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\jquery-2.1.1.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\knockout-3.1.0.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\localization\globalize.culture.fr.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\localization\localization.default.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\localization\localization.fr.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\Empty\EmptyLayout.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\Empty\EmptyLayout.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\Empty\EmptyLayout.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\globalize.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\home.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\home.js">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="js\" />
+    <Folder Include="js\localization\" />
+    <Folder Include="layouts\" />
+    <Folder Include="layouts\Empty" />
+    <Folder Include="Resources\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PackageIcons.Android.ic_launcher_36_36.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_48_48.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_72_72.png" />
+    <None Include="Resources\PackageIcons.Android.ic_launcher_96_96.png" />
+    <None Include="Resources\PackageIcons.Android.splash_200_320.png" />
+    <None Include="Resources\PackageIcons.Android.splash_320_480.png" />
+    <None Include="Resources\PackageIcons.Android.splash_480_800.png" />
+    <None Include="Resources\PackageIcons.Android.splash_720_1280.png" />
+    <None Include="Resources\PackageIcons.iOS.Default%402x~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.Default-568h%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.Default~iphone.png" />
+    <None Include="Resources\PackageIcons.iOS.icon%402x.png" />
+    <None Include="Resources\PackageIcons.iOS.icon.png" />
+    <None Include="Resources\PackageIcons.iOS.iTunesArtwork.png" />
+    <None Include="Resources\PackageIcons.Tizen.icon_117_117.png" />
+    <None Include="Resources\PackageIcons.WP.ApplicationIcon_99_99.png" />
+    <None Include="Resources\PackageIcons.WP.SplashScreenImage_768_1280.png" />
+    <None Include="Resources\PackageIcons.WP.TileMedium.png" />
+    <None Include="Resources\PackageIcons.WP.TileSmall.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="ResolveReferences">
+    <Message Text="Copying references to output dir..." Importance="high" />
+    <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))">
+    </MSBuild>
+  </Target>
+  <Target Name="CopyFilesToOutputDirectory">
+    <Message Text="Copying files to output dir..." Importance="high" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(GeneratedJavascript->'%(Identity)')" DestinationFiles="@(GeneratedJavascript-&gt;'%(Identity)'-&gt;'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+  </Target>
+  <Target Name="CoreCompile">
+    <!--<Message Text="'$(MSBuildToolsPath)'"></Message>-->
+    <!--<Message Text="'$(BuildingProject)'"></Message>-->
+    <!--<Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high"></Message>-->
+    <!--<Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high"></Message>-->
+  </Target>
+  <Target Name="CreateManifestResourceNames" Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''" />
+  <Target Name="Clean">
+    <!--
+    <Message Text="Cleaning Output files..." Importance="high" />
+    <Delete Files="@([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+    -->
+    <Message Text="Cleaning Output dir ($([System.IO.Path]::GetFullPath('$(OutputPath)')))..." Importance="high" />
+    <RemoveDir Directories="$([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+  </Target>
+</Project>
